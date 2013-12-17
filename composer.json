@@ -19,10 +19,10 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "devcookies/signgen": "composer",
+        "devcookies/signgen": "dev-composer",
         "twig/twig": ">=1.14.0"
     },
     "autoload": {
-        "psr-0": { "RedCode\\PaymentSystem\\Ecommpay": "src/" }
+        "psr-0": { "RedCode\\PaymentSystem": "src/" }
     }
 }

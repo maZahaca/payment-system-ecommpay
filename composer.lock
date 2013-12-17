@@ -1,0 +1,111 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "14debd361cbd605547f1ace620a7530a",
+    "packages": [
+        {
+            "name": "devcookies/signgen",
+            "version": "dev-composer",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maZahaca/signgen.git",
+                "reference": "3b6b690348d8f6a0a44d968c0dd19259c7880feb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maZahaca/signgen/zipball/3b6b690348d8f6a0a44d968c0dd19259c7880feb",
+                "reference": "3b6b690348d8f6a0a44d968c0dd19259c7880feb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "devcookies": "php/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Signature generator for various devcookies software API",
+            "homepage": "https://github.com/com-devcookies/signgen",
+            "keywords": [
+                "devcookies",
+                "signgen"
+            ],
+            "support": {
+                "source": "https://github.com/maZahaca/signgen/tree/composer"
+            },
+            "time": "2013-12-16 09:10:52"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fabpot/Twig.git",
+                "reference": "85e4ff98000157ff753d934b9f13659a953f5666"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/85e4ff98000157ff753d934b9f13659a953f5666",
+                "reference": "85e4ff98000157ff753d934b9f13659a953f5666",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.15-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2013-12-06 07:47:10"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "devcookies/signgen": 20
+    },
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": [
+
+    ]
+}
